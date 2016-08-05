@@ -17,19 +17,9 @@ public class Test4Activity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_test4);
 		mTextView = (TextView) findViewById(R.id.textView1);
-		
+		mTextView.setText("abc");
+
 		System.out.println("测试添加代码");
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 }
