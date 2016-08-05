@@ -9,9 +9,20 @@
     tools:context="com.insthub.ecmobile.Test4Activity" >
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="40sp"
-        android:text="@string/hello_world" />
+        android:text="@string/hello_world"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="28dp"
+        android:onClick="btnClick"
+        android:text="Button" />
 
 </RelativeLayout>
