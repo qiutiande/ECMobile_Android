@@ -359,6 +359,10 @@
             android:name=".Test2Activity"
             android:label="@string/title_activity_test2" >
         </activity>
+        <activity
+            android:name=".Test4Activity"
+            android:label="@string/title_activity_test4" >
+        </activity>
     </application>
 
 </manifest>
