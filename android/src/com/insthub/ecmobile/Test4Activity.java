@@ -9,5 +9,6 @@ public class Test4Activity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_test4);
+		System.out.println("测试添加代码");
 	}
 }
