@@ -367,6 +367,10 @@
             android:name=".QoqoqoActivity"
             android:label="@string/title_activity_qoqoqo" >
         </activity>
+        <activity
+            android:name=".CzwActivity"
+            android:label="@string/title_activity_czw" >
+        </activity>
     </application>
 
 </manifest>
