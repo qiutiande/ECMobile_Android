@@ -29,9 +29,27 @@ public class TestActivity0920 extends Activity {
 		// Handle action bar item clicks here. The action bar will
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
-		if (item.getItemId() == R.id.action_settings) {
+//<<<<<<< .mine
+		int itemID = item.getItemId();
+		switch (itemID) {
+		case R.id.action_settings:
+//=======
+//		if (item.getItemId() == R.id.action_settings) {
+//>>>>>>> .r103
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
