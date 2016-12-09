@@ -375,6 +375,10 @@
             android:name=".TestActivity0920"
             android:label="@string/title_activity_test_activity0920" >
         </activity>
+        <activity
+            android:name=".TestActivity1"
+            android:label="@string/title_activity_test_activity1" >
+        </activity>
     </application>
 
 </manifest>
