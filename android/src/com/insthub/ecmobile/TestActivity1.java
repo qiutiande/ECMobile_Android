@@ -1,7 +1,5 @@
 package com.insthub.ecmobile;
 
-import com.external.activeandroid.util.Log;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -13,7 +11,6 @@ public class TestActivity1 extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_test_activity1);
-		Log.e("TestActivity1", "oncreate()");
 	}
 
 	@Override
@@ -28,8 +25,8 @@ public class TestActivity1 extends Activity {
 		// Handle action bar item clicks here. The action bar will
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
-		int itemID = item.getItemId();
-		if (itemID == R.id.action_settings) {
+		int id = item.getItemId();
+		if (id == R.id.action_settings) {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
