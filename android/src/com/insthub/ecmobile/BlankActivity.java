@@ -22,5 +22,19 @@ public class BlankActivity extends Activity {
 		System.out.println("0528 18:56");
 
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 }
